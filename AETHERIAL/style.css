@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    scrollbar-color: black;
+    scrollbar-width: thin;
+  }
+  
+  /* scrollbar */
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #333; /* Adjust the background color as needed */
+  }
