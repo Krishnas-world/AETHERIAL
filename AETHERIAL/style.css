@@ -706,6 +706,8 @@ form > input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 200;
 }
 
 .team-member {
