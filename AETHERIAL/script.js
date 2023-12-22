@@ -69,10 +69,13 @@ $("#trapezoid")
 // TEST NOW BUTTON
 
 function redirectMe(){
-    window.location.href = "http://192.168.172.232";
+    window.location.href = "http://192.168.172.245";
     return;
 }
 
 
 // SIMULATION PAGE
-
+function loadCan() {
+  const iframe = document.getElementById('webpageFrame');
+  iframe.src = 'https://canaraengineering.in';
+}
