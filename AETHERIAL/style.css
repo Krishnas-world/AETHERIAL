@@ -801,6 +801,7 @@ iframe {
 
 /* SIMULATION PAGE BUTTONS */
 .btn-hover {
+  right: -29em;
   position: relative;
   display: inline-block;
   padding: 15px 30px;
@@ -847,4 +848,5 @@ iframe {
   justify-content: center;
   position: absolute;
   top: 35em;
+  right: 30;
 }
