@@ -4,15 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
   
     const monthlyPrices = {
       basic: "₹69",
-      professional: "₹99",
-      business: "₹149",
+      professional: "₹149",
+      business: "₹99",
     };
   
     const yearlyPrices = {
       basic: "₹799",
-      professional: "₹1099",
-      business: "₹1699",
+      professional: "₹1699",
+      business: "₹1099",
     };
+
   
     plansSwitch.addEventListener("change", () => {
       const planIds = ["basic-plan", "professional-plan", "business-plan"];
