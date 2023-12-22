@@ -77,5 +77,6 @@ function redirectMe(){
 // SIMULATION PAGE
 function loadCan() {
   const iframe = document.getElementById('webpageFrame');
-  iframe.src = 'https://canaraengineering.in';
+  iframe.src = './map.html';
 }
+
