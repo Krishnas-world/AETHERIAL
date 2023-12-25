@@ -69,7 +69,7 @@ $("#trapezoid")
 // TEST NOW BUTTON
 
 function redirectMe(){
-    window.location.href = "http://192.168.172.245";
+    window.location.href = "./simulation.html";
     return;
 }
 
